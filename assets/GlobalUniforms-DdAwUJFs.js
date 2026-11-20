@@ -1,1 +1,0 @@
-import{Or as e,io as t,ro as n}from"./LevelStorage-BT3PdB7g.js";var r={uTime:{value:0},uNight:{value:0},uWind:{value:new n(1,.35)},uWindStrength:{value:1},uCameraYaw:{value:0},uCameraPosition:{value:new t},uSunDirection:{value:new t(.4,.8,.45).normalize()},uSunColor:{value:new e(1,.9,.75)},uFogColor:{value:new e(.6,.65,.75)},uFogStart:{value:new Float32Array(2)}};export{r as t};
