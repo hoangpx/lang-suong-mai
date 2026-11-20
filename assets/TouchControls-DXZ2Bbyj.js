@@ -11,11 +11,10 @@ import{T as e}from"./minimap-DGWyalIC.js";var t=`#e8c06a`;function n(){return ty
   /* the phone dialogue: the engine's box hidden, ours big and full width; answers as big buttons */
   body.tc-on .lu-dialog { opacity: 0 !important; pointer-events: none !important; }
   .tc-dlg { left: 8px; right: 8px; bottom: max(10px, env(safe-area-inset-bottom)); padding: 14px 16px 18px; display: none;
-    background: linear-gradient(180deg, var(--g-glass0), var(--g-glass3)); border: 3px solid var(--g-g3); box-shadow: 0 0 0 3px var(--g-band), inset 0 0 0 2px var(--g-g1), 0 6px 18px #000a; border-radius: 6px;
+    background: var(--g-glass2); border: 2px solid var(--g-g2); box-shadow: 0 4px 14px rgba(0,0,0,.45); border-radius: 6px;
     font-family: VT323, monospace; color: var(--g-tx1); }
   .tc-dlg.on { display: block; }
-  .tc-dlg__name { display: inline-block; margin: -30px 0 6px -4px; padding: 2px 12px; background: var(--g-plate1); border: 2px solid var(--g-g3);
-    color: var(--g-kw); font-size: 24px; letter-spacing: 1px; text-transform: uppercase; }
+  .tc-dlg__name { display: block; margin: 0 0 4px; color: var(--g-kw); font-size: 24px; letter-spacing: 1px; }
   .tc-dlg__text { font-size: 30px; line-height: 1.12; min-height: 3.2em; }
   .tc-dlg__more { position: absolute; right: 14px; bottom: 6px; color: ${t}; font-size: 20px; animation: tcblink 1s steps(2) infinite; }
   @keyframes tcblink { 50% { opacity: 0; } }
