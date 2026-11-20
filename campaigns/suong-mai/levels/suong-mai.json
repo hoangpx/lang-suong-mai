@@ -52,10 +52,10 @@
     "TTFFFFFFs~~~sgkkkkkkkkkkgggggg..gffffggggggggTT",
     "TTFFFFFFs~~~sgkkkkkkkkkkgggggg..gggggggggggggTT",
     "TTFFFFFFs~~~sgkkkkkkkkkkgggggg..gggggggggggggTT",
-    "TT......s~~~sgkkkkkkkkkkgggggg..gggggggggggggTT",
+    "TT......s~~~sgkkkkkkkkkkgggggg..ggggggggggg....",
     "TT......g~~~g..................................",
     "TTFFFFFFg~~~g..................................",
-    "TTFFFFFFs~~~sggggggggg..gggggggggggggggggggggTT",
+    "TTFFFFFFs~~~sggggggggg..ggggggggggggggggggg....",
     "TTFFFFFFs~~~sggggggggg..gdddddggdddddggggggggTT",
     "TTFFFFFFs~~~sgsssssssg..gdddddggdddddggggggggTT",
     "TTFFFFFFs~~~sgsooooosg..gdddddggdddddggggggggTT",
@@ -108,8 +108,8 @@
     "22222222211122222222222222222222222222222222222"
   ],
   "objects": [
-    {"id":"exit_1","type":"exit","minX":45.8,"maxX":47,"minZ":17,"maxZ":19,"to":"dong-lua","entrance":"from-village","mode":"walk","label":"Enter","requires":"","locked":[]},
-    {"id":"entrance_1","type":"entrance","x":43.8,"z":18,"name":"from-field","facing":"left"},
+    {"id":"exit_1","type":"exit","minX":44.6,"maxX":47,"minZ":16,"maxZ":20,"to":"dong-lua","entrance":"from-village","mode":"walk","label":"Enter","requires":"","locked":[]},
+    {"id":"entrance_1","type":"entrance","x":42.6,"z":18,"name":"from-field","facing":"left"},
     {"id":"signpost_1","type":"signpost","x":42.4,"z":16.6,"rotation":-0.2,"speaker":"Biển chỉ đường","text":["→ {Đồng lúa chín}\nLúa chín vàng, mai cả làng ra gặt."],"opts":{"boards":1},"textKeys":{"text":["113B2A1933CEA6A563899ED03A995194"]}},
     {"id":"house_1","type":"house","x":19,"z":11.2,"rotation":0,"name":"Đình làng Vũ Đại","light":true,"text":["Đình thờ Thành hoàng làng. Mái cong vút, đầu đao uốn như sóng.","Trên nóc đình chạm hình lưỡng long chầu nguyệt."],"opts":{"width":7,"depth":3.5,"stories":1,"wall":"wood_planks_dark","upperWall":"","roof":"roof_viet","chimney":false,"shutters":false,"sign":false,"doorHood":false,"woodpile":false,"gableFront":false,"seed":5,"flowerboxes":false,"pitch":30,"overhang":1,"storyHeight":2.4,"plinthHeight":0.6},"textKeys":{"text":["39BEB0E07AF0E3ABFDB63163499AC914","5F1461AC8F641CDB53E7893E55C5D314"]}},
     {"id":"tree_1","type":"tree","x":15,"z":14.6,"collider":true,"opts":{"kind":"banyan","height":7.2,"seed":41}},

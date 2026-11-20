@@ -10,7 +10,7 @@
   "waterLevel": 0.4,
   "water": {"flow":[0,0.45],"reflect":0.2,"neutral":0.2},
   "environment": {"timeOfDay":16.6,"clock":true,"weather":"clear","border":"forest","outerScenery":true,"godRays":true,"dust":false,"music":true,"camera":null,"highGround":null,"forest":{"areas":[{"minX":-60,"maxX":140,"minZ":-60,"maxZ":120,"kinds":{"bamboo":7,"banana":2}}]},"foliage":{"cropAreas":[{"x":2.1,"z":2.1,"w":9.8,"h":7.8,"kind":"rice"},{"x":2.1,"z":11.1,"w":9.8,"h":11.8,"kind":"rice"},{"x":2.1,"z":25.1,"w":9.8,"h":10.8,"kind":"rice"},{"x":2.1,"z":37.1,"w":9.8,"h":8.8,"kind":"rice"},{"x":13.1,"z":2.1,"w":10.8,"h":7.8,"kind":"rice"},{"x":13.1,"z":11.1,"w":10.8,"h":11.8,"kind":"rice"},{"x":13.1,"z":25.1,"w":10.8,"h":10.8,"kind":"rice"},{"x":13.1,"z":37.1,"w":10.8,"h":8.8,"kind":"rice"},{"x":25.1,"z":2.1,"w":13.8,"h":7.8,"kind":"rice"},{"x":25.1,"z":11.1,"w":13.8,"h":11.8,"kind":"rice"},{"x":25.1,"z":25.1,"w":13.8,"h":10.8,"kind":"rice"},{"x":25.1,"z":37.1,"w":13.8,"h":8.8,"kind":"rice"},{"x":43.1,"z":2.1,"w":8.8,"h":7.8,"kind":"rice"},{"x":43.1,"z":11.1,"w":8.8,"h":11.8,"kind":"rice"},{"x":43.1,"z":25.1,"w":8.8,"h":10.8,"kind":"rice"},{"x":43.1,"z":37.1,"w":8.8,"h":8.8,"kind":"rice"},{"x":53.1,"z":2.1,"w":8.8,"h":7.8,"kind":"rice"},{"x":53.1,"z":11.1,"w":8.8,"h":11.8,"kind":"rice"},{"x":53.1,"z":25.1,"w":8.8,"h":10.8,"kind":"rice"},{"x":53.1,"z":37.1,"w":8.8,"h":8.8,"kind":"rice"}]}},
-  "spawn": {"x":3.4,"z":24,"facing":"right"},
+  "spawn": {"x":4.4,"z":24,"facing":"right"},
   "legend": {
     "g": {"top":"grass","side":"cliff","lip":"grass_side","walkable":true},
     "G": {"top":"grass_dark","side":"cliff","lip":"grass_side","walkable":true},
@@ -58,10 +58,10 @@
     "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
     "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
     "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
-    "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
+    "....FFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
     ".......................................s~~s.....................",
     ".......................................s~~s.....................",
-    "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
+    "....FFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
     "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
     "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
     "TTFFFFFFFFFF.FFFFFFFFFFF.FFFFFFFFFFFFFFs~~sFFFFFFFFF.FFFFFFFFFTT",
@@ -186,8 +186,8 @@
     {"id":"emitter_14","type":"emitter","x":41,"z":24,"preset":"mist","size":[4,1,44],"count":18,"dy":0.4},
     {"id":"region_1","type":"region","minX":38.5,"maxX":43.5,"minZ":0,"maxZ":48,"name":"Mương nước","sub":"Đồng lúa chín","minY":null,"banner":"","textKeys":{"sub":"A33F4CAE1A03B0F2180E6A551D18E870"}},
     {"id":"region_2","type":"region","minX":0,"maxX":64,"minZ":0,"maxZ":48,"name":"Đồng lúa chín","sub":"Làng Vũ Đại","minY":null,"banner":"Lúa chín vàng ươm, thơm mùi rạ mới","textKeys":{"sub":"6168EDDE70F3427E64F54AFE77EBAA13","banner":"950874C03580EEDE667C46AAD473DB2F"}},
-    {"id":"exit_1","type":"exit","minX":0,"maxX":1.2,"minZ":23,"maxZ":25,"to":"suong-mai","entrance":"from-field","mode":"walk","label":"Enter","requires":"","locked":[]},
-    {"id":"entrance_1","type":"entrance","x":3.4,"z":24,"name":"from-village","facing":"right"}
+    {"id":"exit_1","type":"exit","minX":0,"maxX":2.4,"minZ":22,"maxZ":26,"to":"suong-mai","entrance":"from-field","mode":"walk","label":"Enter","requires":"","locked":[]},
+    {"id":"entrance_1","type":"entrance","x":4.4,"z":24,"name":"from-village","facing":"right"}
   ],
   "textKeys": {"subtitle":"2D03940C3E2653703400C3DB02A60D8F"}
 }
