@@ -22,6 +22,10 @@
     }
   ],
   "chapters": [],
+  "story": [
+    "main.json",
+    "loi.story"
+  ],
   "textKeys": {
     "subtitle": "C4897D726055DDC9DFBC8E4F3F4EA7FA",
     "title.title": "8FD88562B23543594C59C3B39FAE580C",
