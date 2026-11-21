@@ -255,6 +255,42 @@
       "preset": "em",
       "portraitColor": "#5a7aa0",
       "talk": "ti"
+    },
+    "ly": {
+      "name": "Ông Lý",
+      "preset": "truongthon",
+      "portraitColor": "#a8a8a8",
+      "talk": "ly"
+    },
+    "nu": {
+      "name": "Chị Nụ",
+      "preset": "banhang",
+      "portraitColor": "#c8a060",
+      "talk": "nu"
+    },
+    "ut": {
+      "name": "Chú Út",
+      "preset": "ngudan",
+      "portraitColor": "#5a7aa0",
+      "talk": "ut"
+    },
+    "do": {
+      "name": "Cụ Đồ",
+      "preset": "thaydo",
+      "portraitColor": "#8a4a3a",
+      "talk": "do"
+    },
+    "moc": {
+      "name": "Anh Mộc",
+      "preset": "thothucong",
+      "portraitColor": "#8a6a3a",
+      "talk": "moc"
+    },
+    "teo": {
+      "name": "Bé Tèo",
+      "preset": "chantrau",
+      "portraitColor": "#6aa05a",
+      "talk": "teo"
     }
   },
   "events": [

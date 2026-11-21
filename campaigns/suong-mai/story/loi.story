@@ -281,3 +281,42 @@ choice Anh gỡ giúp em nhé? #line:84475A2644F6F1BA4297E0474E6CA193
 : Kiễng chân, với tay lên mái rạ... gỡ được rồi! #line:D6EF3DBF374F08CEFA0997A62327DD76
 give dieu
 quest dieu stage tra
+
+== ly
+if quest:com-moi = done
+  - Lễ cơm mới năm nay chu đáo lắm. Ông thay mặt làng cảm ơn cháu. #line:19207873A4653831601EDD0BEEECD337
+  stop
+cycle ly-noi
+  * - Ông là trưởng thôn. Việc làng việc nước, có gì cứ báo ông. #line:E5AE75D986C2127CEEC64D8273B3026E
+  * - Phép vua thua lệ làng. Làng ta giữ lệ dâng cơm mới đã mấy trăm năm. #line:A1D242C9A626B062496ADA4D846BFE15
+  * - Đêm nay trăng sáng, ông mời các cụ ra sân đình uống trà. #line:D3604AF77F62004C8237BAA84DA07C4F
+
+== nu
+cycle nu-noi
+  * - Ai mua bánh đúc, khoai lang luộc không? Còn nóng hổi đây! #line:0F1AEB8EBBEB3631F18D2F826B4B2969
+  * - Gánh hàng từ tờ mờ sáng, nặng trĩu cả vai. #line:75A2A2838ED561F85CBDF546AB9D43F3
+  * - Chiều nay chợ phiên, chị gánh ra đầu đình bán nốt. #line:57360D50B5418B8AF1A883B1A41D5DF5
+
+== ut
+cycle ut-noi
+  * - Sáng nay chú đơm được giỏ cá diếc, con nào con nấy béo múp. #line:B197110025E25B7533BC37EA5AD6B57F
+  * - Nước sông lên rồi, cá theo thác Sương xuống nhiều lắm. #line:2F923ED7577E5D4677B11FF278428C07
+  * - Tối chú thả lờ dưới chân cầu, mai ra thăm. #line:756F4D413AB907EC29DA23F3C0A48B7D
+
+== do
+cycle do-noi
+  * - Chữ là nết người. Cháu có muốn học chữ không? #line:3F169DCEB4E9FB58E0B0939EC7EC9BC3
+  * - Tết đến, cụ ngồi đầu đình cho chữ, ai xin chữ Phúc, chữ Tâm cũng có. #line:3A71BB6490DB3BAAAE1AEBB7C5F32D09
+  * - Mực tàu, giấy đỏ, nét bút phải thong thả như hơi thở. #line:11CEC381E6B101BC882572C690CC2057
+
+== moc
+cycle moc-noi
+  * - Anh đẽo cột nhà, đóng cày bừa cho cả làng. #line:8ABDB452A672D5274E541BEEB99B0BF9
+  * - Gỗ lim thì chắc, gỗ mít thì thơm. Mỗi thứ một việc. #line:F3244A2ABFF4FC1EB4B367AC3E75D98A
+  * - Mái đình kia, đầu đao cong vút ấy, ông nội anh chạm đấy. #line:CDAEFCEAE3ABEBC166A4A961E7771DD7
+
+== teo
+cycle teo-noi
+  * - Chiều nay em thổi sáo trên lưng trâu đấy! #line:9D956DEA52AC363CD1554CB8E2E93A4D
+  * - Trâu nhà em ăn no cỏ rồi, lát em dắt ra sông tắm. #line:B33227D67EBA183820436A7BF24014F1
+  * - Anh có biết thả diều không? Bé Tí ngoài đồng thả cao lắm. #line:DEBE2121AC1CC0140F25CC8F5CDE8F70
