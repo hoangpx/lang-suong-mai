@@ -1,4 +1,4 @@
-import{Ci as e,Cr as t,Gr as n,Ti as r,Vr as i,Wi as a,ao as o,bi as s,ei as c,ir as l,lr as u,ri as d,ur as f}from"./LevelStorage-JaoBFERB.js";import{t as p}from"./GlobalUniforms-BMXj3q_v.js";import"./game-jd2jSqD9.js";import{t as m}from"./glowSpots-DmXt8jmm.js";var h=4,g=4,_=.135,v=.74,y=.775,b=.94,x=Object.freeze({BEVEL_L:0,FLAT:1,FULLER_L:2,GUARD_Y:3,GUARD_Z:4,GRIP:5,POMMEL:6,GEM:7,BEVEL_R:8,FULLER_R:9}),S=`
+import{Ci as e,Cr as t,Gr as n,Ti as r,Vr as i,Wi as a,ao as o,bi as s,ei as c,ir as l,lr as u,ri as d,ur as f}from"./LevelStorage-JaoBFERB.js";import{t as p}from"./GlobalUniforms-BMXj3q_v.js";import"./game-CiPa-ns_.js";import{t as m}from"./glowSpots-DmXt8jmm.js";var h=4,g=4,_=.135,v=.74,y=.775,b=.94,x=Object.freeze({BEVEL_L:0,FLAT:1,FULLER_L:2,GUARD_Y:3,GUARD_Z:4,GRIP:5,POMMEL:6,GEM:7,BEVEL_R:8,FULLER_R:9}),S=`
 attribute vec4 aBlade;  // part (0 blade, 1 guard, 2 grip, 3 pommel / gem), side (0 / 1 / 0.5 at an apex), facet width (normalised), kind
 attribute vec4 iShape;  // length, width, seed, palette
 attribute vec4 iFx;     // dissolve, dissolve direction, glow, runes
